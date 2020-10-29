@@ -14,6 +14,8 @@ PipePair = Class{}
 local GAP_HEIGHT = 90
 
 function PipePair:init(y)
+
+    GAP_HEIGHT=math.random(80,120)
     -- flag to hold whether this pair has been scored (jumped through)
     self.scored = false
 
